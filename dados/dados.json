@@ -1,0 +1,58 @@
+{
+  "cursos": [
+    {
+      "nome": "Análise e Desenvolvimento de Sistemas",
+      "modalidade": "Tecnólogo",
+      "cargaHoraria": "2.400h"
+    },
+    {
+      "nome": "Técnico em Informática",
+      "modalidade": "Técnico integrado",
+      "cargaHoraria": "3.200h"
+    },
+    {
+      "nome": "Licenciatura em Matemática",
+      "modalidade": "Graduação",
+      "cargaHoraria": "3.000h"
+    }
+  ],
+  "noticias": [
+    {
+      "titulo": "Inscrições abertas para projetos de extensão",
+      "data": "2026-03-18",
+      "resumo": "Estudantes podem enviar propostas de ações com a comunidade."
+    },
+    {
+      "titulo": "Laboratório maker recebe novos equipamentos",
+      "data": "2026-04-02",
+      "resumo": "Kits de robótica e impressoras 3D ampliam as atividades práticas."
+    },
+    {
+      "titulo": "Semana acadêmica terá palestras e minicursos",
+      "data": "2026-04-21",
+      "resumo": "A programação terá tecnologia, inovação e apresentação de trabalhos."
+    }
+  ],
+  "eventos": [
+    {
+      "nome": "Mostra de Ciência e Tecnologia",
+      "data": "2026-06-20",
+      "local": "Auditório Central"
+    },
+    {
+      "nome": "Oficina de Currículo",
+      "data": "2026-06-28",
+      "local": "Laboratório 4"
+    },
+    {
+      "nome": "Encontro de Egressos",
+      "data": "2026-07-10",
+      "local": "Pátio de Convivência"
+    }
+  ],
+  "documentos": [
+    "Calendário Acadêmico 2026",
+    "Manual do Estudante",
+    "Regulamento de Estágio"
+  ]
+}
