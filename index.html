@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Acadêmico - SPA</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topo">
+    <div>
+      <strong>Portal Acadêmico</strong>
+      <small>SPA com JavaScript puro</small>
+    </div>
+
+    <nav class="menu" aria-label="Menu principal">
+      <a href="/home" data-link="home">Home</a>
+      <a href="/cursos" data-link="cursos">Cursos</a>
+      <a href="/noticias" data-link="noticias">Notícias</a>
+      <a href="/eventos" data-link="eventos">Eventos</a>
+      <a href="/documentos" data-link="documentos">Documentos</a>
+      <a href="/contato" data-link="contato">Contato</a>
+    </nav>
+
+    <button id="trocar-tema" type="button">Tema escuro</button>
+  </header>
+
+  <section class="rotas-hash" aria-label="Rotas com hash">
+    <span>Rotas hash:</span>
+    <a href="#home">#home</a>
+    <a href="#cursos">#cursos</a>
+    <a href="#noticias">#noticias</a>
+    <a href="#eventos">#eventos</a>
+    <a href="#documentos">#documentos</a>
+    <a href="#contato">#contato</a>
+  </section>
+
+  <main id="app"></main>
+
+  <footer>
+    SPA sem framework: DOM, estado, hash routing, History API e fetch.
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
